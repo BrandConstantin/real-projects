@@ -40,3 +40,33 @@ p {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.contenedor {
+    max-width: 1200rem;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* cambiar diseño elemento a partir de una medida */
+
+@media (max-width:500px) {
+    p {
+        color: #d8b3b3;
+        font-size: 3rem;
+    }
+    img {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992) {
+    .entrada-blog img {
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+}
