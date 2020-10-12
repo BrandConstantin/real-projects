@@ -10,6 +10,84 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header class="site-header">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactos</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="contenido-hero">
+            <h1>Diseño y Desarrollo Web</h1>
+            <p><i class="fas fa-map-marker-alt"></i> Málaga, España</p>
+            
+            <a class="boton" href="#contacto">Contactar</a>
+        </div>
+    </div>
+
+    <main class="servicios contenedor">
+        <h2>Nuestros Servicios</h2>
+        <div class="contenedor-servicios">
+            <div class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <i class="fas fa-pen-nib"></i>
+                </div>
+                <p>Ut congue ligula sapien, ac aliquet erat viverra a. Nulla rhoncus hendrerit fringilla. Mauris tempus sagittis libero, eget finibus sem aliquet eget.</p>
+            </div>
+            <div class="servicio">
+                <h3>Aplicaciones Móviles</h3>
+                <div class="iconos">
+                        <i class="fab fa-android"></i>
+                        <i class="fab fa-apple"></i>
+                </div>
+                <p>Ut congue ligula sapien, ac aliquet erat viverra a. Nulla rhoncus hendrerit fringilla. Mauris tempus sagittis libero, eget finibus sem aliquet eget.</p>
+            </div>
+            <div class="servicio">
+                <h3>Social Media </h3>
+                <div class="iconos">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <p>Ut congue ligula sapien, ac aliquet erat viverra a. Nulla rhoncus hendrerit fringilla. Mauris tempus sagittis libero, eget finibus sem aliquet eget.</p>
+            </div>
+        </div> <!--.servicios-->
+    </main>
+
+    <div id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form action="#">
+            <legend>Contactános</legend>
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+
+                    <input type="text" name="nombre" placeholder="Nombre">
+                </div>
+                <div class="campo">
+                    <label>Teléfono</label>
+
+                    <input type="tel" name="telefono" placeholder="Teléfono">
+                </div>
+                <div class="campo w-100">
+                    <label>Correo</label>
+
+                    <input type="mail" name="correo" placeholder="Mail">
+                </div>
+                <div class="campo w-100">
+                    <label>Mensaje:</label>
+
+                    <textarea></textarea>
+                </div>
+            </div><!--.contenedor-campos-->
+            <div class="enviar">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
