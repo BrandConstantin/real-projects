@@ -19,5 +19,5 @@
   - www.cssmatic.com
 
 ## GDLWEBCAMP:
-* :
+* : proyecto responsive mobile first
   - https://html5boilerplate.com
