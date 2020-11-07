@@ -21,3 +21,6 @@
 ## GDLWEBCAMP:
 * : proyecto responsive mobile first
   - https://html5boilerplate.com
+
+## GDLWEBCAMP js:
+* : proyecto al cual se le añade JavaScript
