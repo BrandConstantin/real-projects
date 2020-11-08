@@ -101,7 +101,7 @@
                   </ul>
                   <div class="orden">
                     <label for="pase_dia">Boletos deseados:</label>
-                    <input type="number" min="1" id="pase_dia" size="3" placeholder="2">
+                    <input type="number" min="1" id="pase_dia" size="3" placeholder="0">
                   </div>
                 </div>
               </li>
@@ -116,7 +116,7 @@
                   </ul>
                   <div class="orden">
                     <label for="pase_completo">Boletos deseados:</label>
-                    <input type="number" min="1" id="pase_completo" size="3" placeholder="2">
+                    <input type="number" min="1" id="pase_completo" size="3" placeholder="0">
                   </div>
                 </div>
               </li>
@@ -131,7 +131,7 @@
                   </ul>
                   <div class="orden">
                     <label for="pase_dosdias">Boletos deseados:</label>
-                    <input type="number" min="1" id="pase_dosdias" size="3" placeholder="2">
+                    <input type="number" min="1" id="pase_dosdias" size="3" placeholder="0">
                   </div>
                 </div>
               </li>
@@ -256,11 +256,11 @@
           <div class="extras">
             <div class="orden">
               <label for="camisa_evento">Camisa del evento 10€ <small>(promoción 7% dto.)</small></label>
-              <input type="number" min="1" id="camisa_evento" size="3" placeholder="1">
+              <input type="number" min="1" id="camisa_evento" size="3" placeholder="0">
             </div>
             <div class="orden">
               <label for="etiquetas">Paquete de 10 etiquetas 6€ <small>(HTML5, CSS3, JavaScript)</small></label>
-              <input type="number" min="1" id="etiquetas" size="3" placeholder="1">
+              <input type="number" min="1" id="etiquetas" size="3" placeholder="0">
             </div>
             <div class="orden">
               <label for="regalo">Seleccione el regalo</label><br/>
@@ -272,7 +272,7 @@
               </select>
             </div>
 
-            <input type="button" id="calcular" class="button" value="Calcular">
+            <input type="button" id="calcular" class="button" value="Calcular" disabled>
           </div>
 
 
@@ -283,7 +283,7 @@
             </div>
             <p>Total:</p>
             <div id="suma-total"></div>
-            <input type="submit" class="button" value="Pagar" id="btnRegistro">
+            <input type="submit" class="button" value="Pagar" id="btnRegistro" disabled>
           </div>
         </div>
       </div>
