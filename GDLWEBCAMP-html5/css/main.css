@@ -1115,7 +1115,7 @@ div.paquetes .tabla-precio input {
 
 .contenido-dia {
   padding: 20px;
-  /* display: none; */
+  display: none;
 }
 
 @media only screen and (min-width:768px) {
@@ -1157,22 +1157,26 @@ div.resumen p {
   text-transform: uppercase;
 }
 
-div.resumen div.extras {
+div.resumen,
+div.extras {
   float: left;
   width: 50%;
   padding: 30px;
 }
 
-div.extras div.orden {
+div.extras,
+div.orden {
     text-align: left;
     margin-bottom: 10px;
 }
 
-div.extras div.orden input {
+div.extras,
+div.orden input {
   margin: 10px 0 0 0 ;    
 }
 
-div.resumen div.total {
+div.resumen,
+div.total {
   float: right;
   width: 50%;
   padding: 30px;
@@ -1186,6 +1190,7 @@ div.resumen input {
 #lista-productos {
   background-color: #e1e1e1;
   padding: 20px;
+  width: 100%;
   display: none;
 }
 
