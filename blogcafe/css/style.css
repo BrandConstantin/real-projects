@@ -187,13 +187,17 @@ img{
 }
 
 .servicios nav{
-    background-color: #784d3c;      
+    background-color: #000000;     
 }
 
 .servicios nav a{
     padding: 16px;
     display: inline-block;
     color: #ffffff;
+}
+
+.servicios nav a.activo{
+    background-color: #784d3c;
 }
 
 .servicios nav a:hover{
@@ -209,9 +213,10 @@ img{
     position: absolute;
     left: 0;
     top: 0;
-    background-color: darkgray;
+    background-color: #784d3c;
+    color: #ffffff;
     padding: 20px;
-    display: none;
+    /* display: none; */
 }
 
 /* header texto */
