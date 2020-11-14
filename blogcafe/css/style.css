@@ -180,6 +180,40 @@ img{
     }
 }
 
+/* servicios */
+
+.servicios{
+    margin-top: 30px;
+}
+
+.servicios nav{
+    background-color: #784d3c;      
+}
+
+.servicios nav a{
+    padding: 16px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.servicios nav a:hover{
+    background-color: #333333;
+}
+
+.nuestros-servicios{
+    position: relative;
+    height: 200px;
+}
+
+.nuestros-servicios > div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: darkgray;
+    padding: 20px;
+    display: none;
+}
+
 /* header texto */
 .texto-header{
     color: #ffffff;
