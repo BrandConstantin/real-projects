@@ -1261,31 +1261,6 @@ input[disabled].button {
   display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*** INTERNAS **/
 /* Conferencia **/
 .navegacion-principal .activo {
   border-bottom: 2px solid #fe4918;
@@ -1294,6 +1269,28 @@ div.galeria a{
   display: inline-block;
   margin-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
