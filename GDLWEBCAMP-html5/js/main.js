@@ -15,10 +15,10 @@ $(function(){
 
 
     // Animación de jQuery animateNumber
-    $('.resumen-evento li:first p').animateNumber({number: 6}, 1200);
-    $('.resumen-evento li:nth-child(2) p').animateNumber({number: 15}, 1200);
-    $('.resumen-evento li:nth-child(3) p').animateNumber({number: 3}, 1600);
-    $('.resumen-evento li:nth-child(4) p').animateNumber({number: 9}, 1200);
+    $('.resumen-evento li:first p').animateNumber({number: 6}, 5200);
+    $('.resumen-evento li:nth-child(2) p').animateNumber({number: 15}, 5200);
+    $('.resumen-evento li:nth-child(3) p').animateNumber({number: 3}, 5600);
+    $('.resumen-evento li:nth-child(4) p').animateNumber({number: 9}, 5200);
 
 
     // Animación de jQuery countdown
@@ -28,4 +28,7 @@ $(function(){
         $('#minutos').html(event.strftime('%M'));
         $('#segundos').html(event.strftime('%S'));
     });
+
+    // Animación de jQuery lettering
+    $('.nombre-sitio').lettering();
 });
