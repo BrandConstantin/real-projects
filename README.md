@@ -24,3 +24,4 @@
 
 ## GDLWEBCAMP js:
 * : proyecto al cual se le añade JavaScript
+* : proyecto al cual se le añade jQuery (animateNumber, finalCountdown)
