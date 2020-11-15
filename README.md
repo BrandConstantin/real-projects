@@ -27,3 +27,9 @@
 * : proyecto al cual se le añade jQuery y plugins
     - [jQuery animateNumber](https://aishek.github.io/jquery-animateNumber/) 
     - [jQuery countdown](http://hilios.github.io/jQuery.countdown/) 
+    - [jQuery lettering](http://letteringjs.com)
+    - images:
+      * [Lightbox](https://lokeshdhakar.com/projects/lightbox2/)
+      * [Colorbox](https://www.jacklmoore.com/colorbox/)
+      * [Fancybox](http://fancybox.net)
+    - 
