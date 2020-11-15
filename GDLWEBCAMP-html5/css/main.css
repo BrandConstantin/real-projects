@@ -600,6 +600,10 @@ div.programa-evento {
   margin-top: 80px;
 }
 
+div.ocultar {
+  display: none;
+}
+
 @media only screen and (min-width:768px) {
     div.programa-evento {
         width: 70%;
@@ -661,10 +665,6 @@ div.detalle-evento p i {
   color: #fe4918;
   font-size: 1.6em;
   margin-right: 10px;
-}
-
-div.ocultar {
-  display: none;
 }
 
 /************************* detalle evento **/
