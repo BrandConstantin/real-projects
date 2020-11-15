@@ -48,4 +48,10 @@ $(function(){
             $('body').css({'margin-top': '0px'});
         }
     });
+
+
+    // Menu móvil 
+    $('.menu-movil').on('click', function(){
+        $('.navegacion-principal').slideToggle();
+    });
 });
