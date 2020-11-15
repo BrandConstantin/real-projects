@@ -31,4 +31,21 @@ $(function(){
 
     // Animación de jQuery lettering
     $('.nombre-sitio').lettering();
+
+
+    // Animación menu fijo barra superior
+    var windowHeight = $(window).height();
+    var barrAltura = $('.barra').innerHeight();
+    
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+
+        if(scroll > windowHeight){
+            $('.barra').addClass('fixed');
+            $('body').css({'margin-top': barrAltura + 'px'});
+        }else{
+            $('.barra').removeClass('fixed');
+            $('body').css({'margin-top': '0px'});
+        }
+    });
 });
