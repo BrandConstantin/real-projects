@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/colorbox.css">
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
@@ -59,8 +60,8 @@
 
       <nav class="navegacion-principal">
         <a href="conferencia.php">Conferencia</a>
-        <a href="">Calendario</a>
-        <a href="">Invitados</a>
+        <a href="calendario.php">Calendario</a>
+        <a href="invitados.php">Invitados</a>
         <a href="registro.php">Rezerva</a>
       </nav>
     </div>
