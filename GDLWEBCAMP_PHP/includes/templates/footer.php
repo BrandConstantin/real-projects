@@ -47,6 +47,8 @@
       echo '  <script src="js/jquery.colorbox-min.js"></script>';
     }else if($pagina == 'conferencia'){
       echo '  <script src="js/jquery.lightbox-min.js"></script>';
+    }else{
+
     }
   ?>
 
@@ -58,6 +60,10 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <!-- mailchimp para subscripción de usuarios a newsletters -->
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"b3bb37039b6fbf3db0c1a8331","lid":"20463b69f2"}) })</script>
 </body>
 
+ 
 </html>
