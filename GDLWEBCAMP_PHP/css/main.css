@@ -1165,7 +1165,7 @@ div.paquetes .tabla-precio input {
 
 .contenido-dia {
   padding: 20px;
-  display: none;
+  /* display: none; */
 }
 
 @media only screen and (min-width:768px) {
@@ -1321,37 +1321,37 @@ div.dia i {
   font-size: 1.6em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Colorbox **/
+/*************************   Colorbox **/
 
 div.cboxElement {
   padding: 30px!important;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Formularios **/
 .mensaje{

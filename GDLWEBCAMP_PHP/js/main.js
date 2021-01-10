@@ -57,4 +57,9 @@ $(function(){
 
     // colorbox invitados
     $('.invitado-info').colorbox({inline:true, with:"50%"});
+
+    // enlace activo en el menú
+    $('body.conferencia .navegacion-principal a:contains("Conferencia")').addClass('activo');
+    $('body.calendario .navegacion-principal a:contains("Calendario")').addClass('activo');
+    $('body.invitados .navegacion-principal a:contains("Invitados")').addClass('activo');
 });
