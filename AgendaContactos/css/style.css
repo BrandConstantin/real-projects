@@ -1,8 +1,8 @@
 /** Custom Properties **/
 :root {
-     --primario: #201236;
-     --secundario: #b48d19;
-     --primarioOscuro : rgb(156, 10, 69);
+     --primario: #4f1b72;
+     --secundario: #ac8921;
+     --primarioOscuro : rgb(20, 47, 88);
      --fuentePrimaria : 'Arial', Helvetica, sans-serif;
      --fuenteSecundaria : 'Poppins', sans-serif;
 }
@@ -42,10 +42,18 @@ body {
      cursor: pointer;
 }
 .btn-editar {
-     color: var(--secundario);
+     color: var(--primario);
+     background-color: #ffffff;
+     width: 40px;
+     height: 40px;
+     border: none;
 }
 .btn-borrar{
-     color: var(--primario);
+     color: var(--secundario);
+     background-color: #ffffff;
+     width: 40px;
+     height: 40px;
+     border: none;
 }
 .volver {
      background-color: var(--secundario);
@@ -91,6 +99,7 @@ form legend {
      font-family: var(--fuenteSecundaria);
      font-size: 2rem;
      text-align: center;
+     margin: 0 auto;
 }
 legend span {
      font-size: 1rem;
@@ -174,11 +183,18 @@ legend span {
      border: 1px solid #e1e1e1;
      margin: 2rem 0;
 }
-.contenedor-tabla {
-     overflow: scroll;
-}
-.listado-contactos{
+table#listado-contactos{
      width: 100%;
+}
+
+@media only screen and (max-width:560px) {
+     .contenedor-tabla {
+          overflow: scroll;
+     }
+}
+
+.listado-contactos{
+     max-width: 100% !important;
      margin-top: 1rem;
      border-collapse: collapse;
 }
